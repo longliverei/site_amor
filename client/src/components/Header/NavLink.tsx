@@ -1,3 +1,5 @@
+import './NavLink.css'
+
 function NavLink() {
   return (
     <nav className="nav_link">

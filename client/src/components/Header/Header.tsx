@@ -1,5 +1,6 @@
 import Logo from './Logo';
 import NavLink from './NavLink';
+import './Header.css';
 
 function Header() {
   return (
