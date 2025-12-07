@@ -1,12 +1,28 @@
-.caroussel {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+/*.caroussel {
+  margin: 0 auto;
   padding: 0 25px;
+}*/
+
+.wrapper {
+  max-width: 1000px;   /* limite máximo */
+  margin: 50px auto;      /* centraliza horizontalmente */
+  padding: 0 20px;     /* espaçamento lateral opcional */
 }
 
-.caroussel img {
+img {
   width: 100%;
   height: auto;
-  display: block;
+  border-radius: 10px; /* bordas arredondadas */
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1)); /* sombra sutil */
+  object-fit: cover;
+}
+
+/* dot config */
+
+.slick-dots li button:before {
+  font-size: 8px;
+  color: #ccc;
+}
+.slick-dots li.slick-active button:before {
+  color: black;
 }

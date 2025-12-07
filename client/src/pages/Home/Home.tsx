@@ -6,7 +6,7 @@ function Home() {
    <main>
         <Header/>
         <div className="caroussel">
-            <Caroussel/>
+          <Caroussel/>
         </div>
    </main>
   );
