@@ -1,3 +1,21 @@
-.caroussel {
-    position: relative;
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    color: white;
+    background-color: black;
+    height: 50vh;
+}
+
+.container .home-info {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 400px;
+}
+
+.container .caroussel-wrapper {
+    display: flex;
+    align-items: center;
 }

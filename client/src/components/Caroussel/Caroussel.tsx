@@ -13,12 +13,14 @@ const Caroussel = () => {
     speed: 500,
     fade: true,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    variableWidth: false,
+    centerMode: true
   };
 
   return (
-    <div className="wrapper">
-      <Slider {...settings} className="caroussel">
+    <div className="caroussel">
+      <Slider {...settings}>
         <div><img src={img1} alt="Imagem 1" /></div>
         <div><img src={img2} alt="Imagem 2" /></div>
         <div><img src={img3} alt="Imagem 3" /></div>

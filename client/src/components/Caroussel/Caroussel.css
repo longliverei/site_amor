@@ -1,21 +1,19 @@
-/*.caroussel {
-  margin: 0 auto;
-  padding: 0 25px;
-}*/
+.caroussel {
+  margin: 0;                /* remove margens externas */
+  padding: 40px;            /* espaço interno visível */
+  background-color: black;
+  width: 800px;  /* largura máxima do carrossel */
+}
 
-.wrapper {
-  max-width: 1000px;   /* limite máximo */
-  margin: 50px auto;      /* centraliza horizontalmente */
-  padding: 0 20px;     /* espaçamento lateral opcional */
+.caroussel .slick-list {
+  overflow: hidden;   /* recorta apenas os slides */
+  background-color: black;
 }
 
 img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* bordas arredondadas */
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1)); /* sombra sutil */
-  object-fit: cover;
+  width: 100%;         /* imagem ocupa toda a largura do slide */
 }
+
 
 /* dot config */
 
