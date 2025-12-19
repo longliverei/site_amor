@@ -4,15 +4,18 @@
     gap: 10em;
     color: white;
     background-color: black;
-    height: 50vh;
+    height: 92vh;
 }
 
 .container .home-info {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     font-size: 24px;
     font-weight: 500;
     max-width: 400px;
+    margin: 100px 0;
 }
 
 .container .caroussel-wrapper {
