@@ -1,0 +1,30 @@
+.items {
+    background-color: #F8F0FF;
+}
+
+.items-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Faz os cards pularem linha automaticamente */
+}
+
+.item {
+    padding: 16px;
+    text-align: left;
+    /*box-shadow: 0 4px 12px rgba(0,0,0,0.1);*/
+    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Efeito "levitar" */
+}
+
+.item h3 {
+    font-family: 'Limewire', sans-serif;
+    color: #B19CD9;
+    font-size: 20px;
+}

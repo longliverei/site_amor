@@ -1,19 +1,31 @@
-.main_header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em 2em;
-  background-color: var(--background-color);
-  height: 10vh;
-  font-family: "Limelight", sans-serif;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #DCD0FF ;
+    font-family: 'Limewire', sans-serif;
+    font-weight: bold;
+    max-height: 100px;
 }
 
-.logo {
-  flex: 1;
-  text-align: left;
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-.navlink {
-  flex: 1;
-  text-align: right;
+.header ul li a {
+    font-size: 16px;
+    color: #B19CD9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: var(--background-color);
+}
+
+.header-logo {
+    height: 200px;
 }

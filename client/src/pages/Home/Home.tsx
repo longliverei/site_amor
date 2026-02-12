@@ -1,13 +1,14 @@
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import Caroussel from "../../components/Caroussel/Caroussel";
+import Items from "../../components/Items/Items";
 import "./Home.css";
-import About from "../../components/About/About";
 
 function Home() {
   return (
     <main>
       <Header/>
-      <About/>
+      <Items/>
+      <Footer/>
     </main>
   );
 }
